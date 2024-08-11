@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
-
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 * {
   margin: 0;
   border: 0;
@@ -95,7 +97,7 @@ h1 {
   margin: 1.5rem;
   position: relative;
   border-radius: 0px;
-  overflow: hidden;
+  overflow: auto;
   border: none;
 }
 
